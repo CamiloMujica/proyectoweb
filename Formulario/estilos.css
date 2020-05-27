@@ -1,0 +1,100 @@
+section {
+  width: 90%;
+  margin: 0 auto;
+}
+/* Formulario*/
+.form {
+    width: 30%;
+    float: left;
+    border: 1px solid #666;
+}
+
+.input {
+  width: 100%;
+  display: block;
+  height: auto;
+  padding: 4px;
+}
+
+.input label {
+  width: 50%;
+  display: block;
+  float: left;
+  padding: 9px 0;
+  background-color: #d9d9d9;
+  margin: 1px;
+}
+
+.input input {
+  width: 47%;
+  display: block;
+  float: left;
+  padding: 9px 0;
+  background-color: #d9e2f3;
+  border: 1px solid #d9e2f3;
+  margin: 1px;
+}
+
+.input select {
+  width: 48%;
+  display: block;
+  float: left;
+  padding: 9px 0;
+  background-color: #d9e2f3;
+  border: 1px solid #d9e2f3;
+  margin: 1px;
+}
+
+.input span{
+  width: 50%;
+  display: block;
+  float: left;
+  margin: 1px;
+}
+
+.input button {
+  border: none;
+  width: 48%;
+  background: green;
+  color: #fff;
+  height: 30px;
+  margin: 1px;
+}
+
+/* tabla */
+
+.table {
+  width: 69%;
+  border: 1px solid #666;
+  float: left;
+}
+
+.table table {
+  width: 100%;
+}
+
+.table thead td {
+  background: #808080;
+  padding: 9px;
+  text-align: center;
+  width: 17.4%;
+  margin: 1px;
+  float: left;
+  color: #FFF;
+}
+
+.table tbody tr:nth-child(odd) {
+  background: #ddebf6;
+}
+
+.table tbody tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.table tbody td {
+  padding: 9px;
+  text-align: center;
+  width: 17.4%;
+  margin: 1px;
+  float: left;
+}

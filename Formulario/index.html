@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es" >
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+    <section>
+      <div class="form">
+        <form action="" method="post">
+          <div class="input">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" required>
+          </div>
+          <div class="input">
+            <label for="apPat">Apellido Paterno</label>
+            <input type="text" name="apPat" id="apPat" required>
+          </div>
+          <div class="input">
+            <label for="apMat">Apellido Materno</label>
+            <input type="text" name="apMat" id="apMat" required>
+          </div>
+          <div class="input">
+            <label for="apMat">Direcci&oacute;n</label>
+            <input type="text" name="direccion" id="direccion" required>
+          </div>
+          <div class="input">
+            <label for="region">Region</label>
+            <select class="" name="region" id="region">
+            </select>
+          </div>
+          <div class="input">
+            <label for="region">Provincia</label>
+            <select class="" name="provincia" id="provincia">
+            </select>
+          </div>
+          <div class="input">
+            <label for="comuna">Comuna</label>
+            <select class="" name="comuna" id="comuna">
+            </select>
+          </div>
+          <div class="input">
+            <span>&nbsp;</span>
+            <button type="button" onClick="crearCliente();">Agregar</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="table">
+        <table border="0" cellspacing="0">
+          <thead>
+              <tr>
+                  <td>Nombre</td>
+                  <td>apellido Paterno</td>
+                  <td>apellidoMaterno</td>
+                  <td>Direcci&oacute;n</td>
+                  <td>Comuna</td>
+              </tr>
+          </thead>
+          <tbody id="clientes"></tbody>
+        </table>
+      </div>
+    </section>
+    <script type="text/javascript" src="Regiones.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
