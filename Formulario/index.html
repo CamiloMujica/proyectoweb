@@ -8,7 +8,7 @@
   <body>
     <section>
       <div class="form">
-        <form action="" method="post">
+        <form action="" method="post" onsubmit="">
           <div class="input">
             <label for="nombre">Nombre</label>
             <input type="text" name="nombre" id="nombre" required>
@@ -27,17 +27,12 @@
           </div>
           <div class="input">
             <label for="region">Region</label>
-            <select class="" name="region" id="region">
-            </select>
-          </div>
-          <div class="input">
-            <label for="region">Provincia</label>
-            <select class="" name="provincia" id="provincia">
+            <select class="" name="region" id="regiones" required>
             </select>
           </div>
           <div class="input">
             <label for="comuna">Comuna</label>
-            <select class="" name="comuna" id="comuna">
+            <select class="" name="comuna" id="comunas" required>
             </select>
           </div>
           <div class="input">
@@ -52,8 +47,8 @@
           <thead>
               <tr>
                   <td>Nombre</td>
-                  <td>apellido Paterno</td>
-                  <td>apellidoMaterno</td>
+                  <td>Apellido Paterno</td>
+                  <td>Apellido Materno</td>
                   <td>Direcci&oacute;n</td>
                   <td>Comuna</td>
               </tr>
@@ -62,7 +57,8 @@
         </table>
       </div>
     </section>
-    <script type="text/javascript" src="Regiones.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="localidades.js"></script>
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
